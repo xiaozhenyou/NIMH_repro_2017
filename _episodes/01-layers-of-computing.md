@@ -39,7 +39,8 @@ interface using NoMachine"
 ## Getting started
 
 * Connect to felix or helix using NoMachine
-We'll be conducting this course using a remote desktop utility called
+
+>We'll be conducting this course using a remote desktop utility called
 [NoMachine](http://www.nomachine.com). You should have already met with the DSST
 staff to configure and test it. Open the NoMachine App and connect to
 felix.nimh.nih.gov if you are an NIMH employee or helix.nih.gov if you work for
@@ -66,15 +67,15 @@ Your screen should now look something like this:
 
 ## Know who (or what) you're talking to
 
-It's easy and common to click on an icon, open and window and typing, clicking, and analyzing in that window without much thought about how or where those commands are being executed and where the data is being stored. It's worth the effort to take some time and understand exactly what your computing (stack)[] looks like and exactly where everything is happening. Understanding this stack can help you make your analysis more efficient and secure.
+It's easy and common to click on an icon, open and window and typing, clicking, and analyzing in that window without much thought about how or where those commands are being executed and where the data is being stored. It's worth the effort to take some time and understand exactly what your computing (stack) looks like and exactly where everything is happening. Understanding this stack can help you make your analysis more efficient and secure.
 
 ## Where am I?
 
-The desktop you're looking at inside the NoMachine window is from a computer that lives over in building 13 at NIH's high performance computing (HPC) center. This computer (helix or felix) is separate from but closely affiliated with the large cluster of computers known as the Biowulf.
+The desktop you're looking at inside the NoMachine window is from a computer that lives over there in building 13 at NIH's high performance computing (HPC) center. This computer (helix or felix) is separate from but closely affiliated with the large cluster of computers known as the Biowulf.
 
-NoMachine is a remote desktop program. It allows your to interact with the remote computer (helix/felix) almost as if you were sitting right in front of it. (VNC is another common remote desktop program).
+NoMachine is a remote desktop program. It allows you to interact with the remote computer (helix/felix) almost as if you were sitting right in front of it. (VNC is another common remote desktop program).
 
-The window on the left of your NX desktop is running an IPython shell. On the right side, there is a window running a (Bash) shell. A (shell)[reference] refers to a program that wraps around another program that is usually more complicated and less user-friendly. That program inside the shell is often referred to as a kernel.
+The window on the left of your remote desktop is running an IPython shell. On the right side, there is a window running a Bash shell. A shell refers to a program that wraps around another program that is usually more complicated and less user-friendly. That program inside the shell is often referred to as a kernel.
 
 ![image_of_shell](../fig/layers_of_computing.png)
 
