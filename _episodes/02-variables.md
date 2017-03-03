@@ -47,7 +47,7 @@ roi_label = 'hippocampus'
 *   Python has a built-in function called `print` that prints things as text.
 *   Call the function (i.e., tell Python to run it) by using its name.
 *   Provide values to the function (i.e., the things to print) in parentheses.
-*   The values passed to the function are called 'arguments'
+*   The values passed to the function are called 'arguments'.
 
 ~~~
 print('The', roi_label , 'is', roi_vol, 'cubic mm')
@@ -183,6 +183,11 @@ ewr_422_yY = 'frontal cortex'
 print('The',ewr_422_yY, 'is', flabadab, 'cubic mm')
 ~~~
 {: .python}
+~~~
+Ahmed is 42 years old
+The frontal cortex is 700 cubic mm
+~~~
+{: .output}
 
 *   Use meaningful variable names to help other people understand what the program does.
 *   The most important "other person" is your future self.
