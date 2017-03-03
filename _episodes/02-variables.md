@@ -194,6 +194,16 @@ by executing the IPython magic `%whos`:
 %whos
 ~~~
 {: .python}
+~~~
+Variable            Type    Data/Info
+-------------------------------------
+corrected_roi_vol   int     133
+ewr_422_yY          str     frontal cortex
+flabadab            int     700
+roi_label           str     hippocampus
+roi_vol             int     130
+~~~
+{: .output}
 
 These variables do not exist on the hard disk of the computer. They will not
 continue to exist if we stop our current IPython kernel (by executing `exit`).
