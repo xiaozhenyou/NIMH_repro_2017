@@ -311,29 +311,20 @@ brain_volume is 1400 and brain_volume_corrected is 1495.2
 > print("fractional string to int:", int("3.4"))
 > ~~~
 > {: .python}
-{: .challenge}
+>~~~
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-18-f025fc4d9856> in <module>()
+----> 1 print("fractional string to int:", int("3.4"))
 
-> ## Arithmetic with Different Types
->
-> Which of the following will print 2.0?
-> Note: there may be more than one right answer.
->
-> ~~~
-> first = 1.0
-> second = "1"
-> third = "1.1"
-> ~~~
-> {: .python}
->
-> 1. `first + float(second)`
-> 2. `float(second) + float(third)`
-> 3. `first + int(third)`
-> 4. `first + int(float(third))`
-> 5. `int(first) + int(float(third))`
-> 6. `2.0 * second`
->
+ValueError: invalid literal for int() with base 10: '3.4'
+>~~~
+>{: .error}
+
 > > ## Solution
-> >
-> > Answer: 1 and 4
+> >~~~
+> >print("fractional string to int:", int(float("3.4")))
+> >~~~
+> >{: .python}
 > {: .solution}
 {: .challenge}
