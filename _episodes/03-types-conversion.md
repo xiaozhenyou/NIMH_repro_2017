@@ -191,6 +191,7 @@ three squared is 9.0
     and update the latter,
     the former updates automatically.
 *   This does **not** happen in programming languages.
+*  
 
 ~~~
 brain_volume = 1246
@@ -279,10 +280,6 @@ brain_volume is 1400 and brain_volume_corrected is 1495.2
 > ~~~
 > {: .output}
 >
-> If `num_subjects` is the number of subjects taking part in a study,
-> and `num_per_survey` is the number that can take part in a single survey,
-> write an expression that calculates the number of surveys needed
-> to reach everyone once.
 {: .challenge}
 
 > ## Strings to Numbers
