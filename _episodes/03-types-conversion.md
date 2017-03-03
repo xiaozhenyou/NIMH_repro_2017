@@ -305,17 +305,19 @@ brain_volume is 1400 and brain_volume_corrected is 1495.2
 > Given that,
 > what do you expect this program to do?
 > What does it actually do?
-> Why do you think it does that?
+> Why do you think it does that
 >
 > ~~~
 > print("fractional string to int:", int("3.4"))
 > ~~~
-> {: .python}
 > 
 > > ## Solution
-> >
+> >~~~
 > > We would expect to return an integer value of 3.
 > > However, it returns the error:
+> >
+> >~~~
+> >{: .output}
 > >
 > >~~~
 > >---------------------------------------------------------------------------
